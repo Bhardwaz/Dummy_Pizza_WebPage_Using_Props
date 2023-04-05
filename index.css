@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins:wght@500&display=swap');
+body{
+    background-color: rgb(242, 242, 242)
+}
+html{
+    font-family: 'Happy Monkey', cursive;
+}
+.navbar{
+    display: flex;
+    width: 95vw;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo_container img{
+    width:100px;
+}
+.navbar_Link{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.navbar_Link > li{
+    font-size: 22px;
+    cursor: pointer;
+}
+.search{
+    width: 55%;
+}
+.search #input{
+    width: 100%;
+    font-size: 22px;
+    padding: 6px 12px;
+    outline-color: rgb(234, 92, 68, .7);
+    font-family: 'Happy Monkey', cursive;
+    border-radius: 10px;
+}
+.pizza_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.pizza_card{
+    width: 300px;
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.pizza_card img{
+    width:100%;
+}
+.price-cart{
+    display: flex;
+    justify-content: space-between;
+}
+.price-cart .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart, button{
+    color: rgb(0, 171, 0);
+    cursor: pointer;
+    background-color: #fff;
+    padding: 2px 5px;
+}
+.cart button{
+    border: 1px solid rgb(0, 171, 0);
+}
